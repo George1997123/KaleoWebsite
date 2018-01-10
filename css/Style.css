@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+p{
+	font-size: 14px;
+}
+a{
+	color: #b5c1ad;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+}
+.header{
+		background-image: url(../../../Pictures/f013fc1d26554c23cc56243e149cc8e2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	}
+	
+
+		/*.header {
+			padding: 0px 0px 0px 0px;
+			height: 100px;
+			position: fixed;
+			top: 100px;
+			width: 100%;
+			z-index:50;}
+		.navigation
+		nav, footer {
+			clear: both;
+			color: #ffffff;
+			text-align: right;
+			background-color: #aeacaa8;
+			margin: 1%;
+			height:30px;}
+		nav ul {
+			margin: 0px;
+			text-align: right;
+			padding 5px 0px 5px 30px;}
+		nav li {
+			text-align: right;
+			display: inline;
+			margin-right: 40px;}
+		nav li a {
+			text-align: right;
+			color: #fffff;}
+		.wrapper {
+			width: 90%;
+			margin: 0px auto;
+			background-repeat: no-repeat;
+			backlground-position: 0px 0px;
+			text-align: left;}
+		.logo {
+			margin-bottom: 20px;}
+		h1, h2, h3, h4 {
+			color: #b5c1ad;
+			font-family: Quicksand, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-weight: normal;
+			text-transform: uppercase;}
+		h1 {
+			font-size: 240%;
+			margin-top: 140px;}
+		h2 {
+			text-align: center;}
+		.date {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 75%;
+			color: #b5c1ad;}
+		.intro {
+			clear: left;
+			font-size: 90%;
+			line-height:1.4em;}
+		.main-story {
+			background-repeat: no-repeat;
+			backgrund-position: 122px 142px;
+			height: 570px;}
+		.photo{
+			float:right;
+		}
+		.more-articles {
+			border-top: 1px solid #ffffff;
+			padding: 10px;}
+		.more-articles p{
+			border-bottom: 1px solid #807c72;
+			padding: 5px 0px 15px 0px;
+			font-size: 80%;}
+		.more-articles p:last-child {
+			border-bottom: none;}
+		.footer {
+			clear: both;
+			background: rgba(0, 0, 0.2);
+			margin: 1%;
+			padding: 5px 10px;}
+		.footer p {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 75%;
+			text-align: right;}
+		.footer a {
+			color: #807c72;}
+.grid_4{
+	float:right;
+}
+.bio{
+	float:right;
+	align-content: center;
+}
+.bio2{
+	float:left;
+	align-content: center;
+}
+#content{overflow: auto;}
+.vid{
+	a;align-content: center;
+}
